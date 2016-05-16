@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="0.0px" >
+
+        <LinearLayout
+            android:id="@+id/left_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_register"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/day_recommend_help_font_space" >
+
+            <ImageView
+                android:id="@+id/nav_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:src="@drawable/ic_action_previous_item" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nav_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="遇到问题"
+            android:textColor="@color/font_dark"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/blank_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/problem_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="在计费期间单车丢失"
+            android:textColor="@color/font_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/problem_type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.25"
+            android:text="@string/bike_lost_text_1"
+            android:textColor="@color/font_dark"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/amount_paid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="赔偿金额："
+            android:lineSpacingMultiplier="1.25"
+            android:textColor="@color/font_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+             android:id="@+id/amount_paid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/bike_lost_text_2"
+            android:textColor="@color/font_dark"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/other_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="其他说明："
+            android:textColor="@color/font_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+             android:id="@+id/other_desc_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineSpacingMultiplier="1.25"
+            android:text="@string/bike_lost_text_3"
+            android:textColor="@color/font_dark"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal|bottom" >
+
+        <Button
+            android:id="@+id/sure_lost"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_button_green_light"
+            android:gravity="center"
+            android:text="确认丢失"
+            android:textColor="@color/font_white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

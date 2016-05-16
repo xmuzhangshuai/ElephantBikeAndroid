@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="0.0px" >
+
+        <LinearLayout
+            android:id="@+id/left_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_register"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/day_recommend_help_font_space" >
+
+            <ImageView
+                android:id="@+id/nav_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:src="@drawable/ic_action_previous_item" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nav_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="遇到问题"
+            android:textColor="@color/font_dark"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/system_main_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/problem_meet_text1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_label_height"
+            android:layout_margin="5dp"
+            android:background="@color/white_bg"
+            android:gravity="center"
+            android:text="@string/problem_1"
+            android:textColor="@color/font_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/problem_meet_text2"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_label_height"
+            android:layout_margin="5dp"
+            android:background="@color/white_bg"
+            android:gravity="center"
+            android:text="@string/problem_2"
+            android:textColor="@color/font_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/problem_meet_text3"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_label_height"
+            android:layout_margin="5dp"
+            android:background="@color/white_bg"
+            android:gravity="center"
+            android:text="@string/problem_3"
+            android:textColor="@color/font_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/problem_meet_text4"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_label_height"
+            android:layout_margin="5dp"
+            android:background="@color/white_bg"
+            android:gravity="center"
+            android:text="@string/problem_4"
+            android:textColor="@color/font_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/problem_next_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_button_green_light"
+            android:paddingLeft="110dp"
+            android:paddingRight="110dp"
+            android:text="@string/next"
+            android:textColor="@color/font_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

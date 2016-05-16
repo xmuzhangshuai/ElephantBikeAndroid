@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="day_recommend_info_space">3dp</dimen>
+    <dimen name="day_recommend_viewpager_padding_top">5dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="message_padding">5dp</dimen>
+    <dimen name="setting_list_margin">8dp</dimen>
+    <dimen name="share_space">10dp</dimen>
+    <dimen name="day_recommend_help_font_space">10dp</dimen>
+    <dimen name="day_recommend_dot_space">15dp</dimen>
+    <dimen name="personal_timecapsule_padding">15dp</dimen>
+    <dimen name="time_capsule20">20dp</dimen>
+    <dimen name="space22">22dp</dimen>
+    <dimen name="day_recommend_viewpager_margin_top">24dp</dimen>
+    <dimen name="day_recommend_help_padding">30dp</dimen>
+    <dimen name="sent_btn_height">35dp</dimen>
+    <dimen name="day_recommend_dot_margin_top">38dp</dimen>
+    <dimen name="day_recommend_padding">40dp</dimen>
+    <dimen name="headimage_size">43dp</dimen>
+    <dimen name="day_recommend_help">48dp</dimen>
+    <dimen name="login_register">50dp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="home_indicator">56dp</dimen>
+    <dimen name="day_recommend_next_btn">60dp</dimen>
+
+    <!-- 系统图标类大小 -->
+    <dimen name="register_height">40dp</dimen>
+    <dimen name="register_weight">160dp</dimen>
+    <dimen name="check_button_weight">50dp</dimen>
+    <dimen name="personal_photo_size">50dp</dimen>
+    <dimen name="idcard_auth_width">280dp</dimen>
+    <dimen name="idcard_auth_height">220dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 结束 -->
+    <!-- 系统图标、文字间的间距大小 -->
+    <dimen name="comp_gap">6dp</dimen>
+    <dimen name="motify_data_space">10dp</dimen>
+    <dimen name="motify_text_space">3dp</dimen>
+    <dimen name="motify_text_padding_space">5dp</dimen>
+    <dimen name="student_flag_left">65dp</dimen>
+    <dimen name="love_vertify_headimage">70dp</dimen>
+    <dimen name="get_image_btn_padding">80dp</dimen>
+    <dimen name="personal_photo_margin">100dp</dimen>
+    <dimen name="get_image_btn_top">120dp</dimen>
+    <dimen name="tape_margin_top">160dp</dimen>
+    <dimen name="tape_margin">180dp</dimen>
+    <dimen name="time_capsule_220">220dp</dimen>
+    <dimen name="headiamge_height">300dp</dimen>
+    <dimen name="message_maxlength">300dp</dimen>
+    <dimen name="message_loc_maxlength">300dp</dimen>
+    <dimen name="day_recommend_viewpager_height">360dp</dimen>
+
+    <!-- 字号 -->
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="day_recommend_help_font">18sp</dimen>
+    <dimen name="act_title_size">17sp</dimen>
+    <dimen name="day_recommend_font_info">16sp</dimen>
+    <dimen name="day_recommend_user_font">14sp</dimen>
+    <dimen name="register_font_size">14sp</dimen>
+    <dimen name="comment_font_size">13sp</dimen>
+    <dimen name="share_title_size">25sp</dimen>
+    <dimen name="share_content_size">21sp</dimen>
+    
+    <!-- 一些固定的宽高 -->
+    <dimen name="navigation_height">45dp</dimen>
+    <dimen name="btn_label_height">45dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+
+</resources>

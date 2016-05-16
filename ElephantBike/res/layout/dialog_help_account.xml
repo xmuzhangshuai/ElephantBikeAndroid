@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_label_white_radius"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="计价规则"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/GA_text_1_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="1.00元起步费"
+            android:textColor="@color/font_4f_gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/GA_text_2_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GA_text_1_id"
+            android:layout_centerHorizontal="true"
+            android:text="@string/GA_text_2_text"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/font_light_gray"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/GA_text_3_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="0.06元/分钟"
+             android:textColor="@color/font_4f_gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/GA_text_4_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GA_text_3_id"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/font_4f_gray"
+            android:text="（60分钟以内的部分）"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/font_light_gray"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/GA_text_5_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="0.02元/分钟"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/GA_text_6_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GA_text_5_id"
+            android:layout_centerHorizontal="true"
+            android:text="（超过60分钟的部分）"
+            android:textColor="@color/font_4f_gray"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/dialog_comfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="110dp"
+        android:paddingRight="110dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_button_white_radius"
+        android:gravity="center"
+        android:text="知道了"
+        android:textColor="@color/font_light_gray"
+        android:textSize="13sp" />
+
+</LinearLayout>

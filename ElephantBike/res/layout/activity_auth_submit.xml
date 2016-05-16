@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_main_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="0.0px" >
+
+        <LinearLayout
+            android:id="@+id/left_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_register"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/day_recommend_help_font_space" >
+
+            <ImageView
+                android:id="@+id/nav_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:src="@drawable/ic_action_previous_item" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nav_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="身份认证"
+            android:textColor="@color/font_dark"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/login_divider" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/choice_photo_frame" >
+
+            <ImageButton
+                android:id="@+id/choose_photo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/photo_choice" />
+
+            <ImageView
+                android:id="@+id/stu_card_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+            <TextView
+                android:id="@+id/upload_stucard_front"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="25dp"
+                android:text="请拍摄学生卡有信息的一面的照片" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/choose_school"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_frame_color"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="请选择学校"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_frame_color"
+            android:gravity="center"
+            android:hint="请输入姓名"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/input_student_number"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_frame_color"
+            android:gravity="center"
+            android:hint="请输入学号"
+            android:numeric="integer"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/card_auth_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_button_green_light"
+            android:text="提交申请"
+            android:textColor="@color/font_white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/info_submit_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="大象单车仅限于在校大学生使用，请进行身份认证"
+            android:textColor="@color/font_dark"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,347 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/white_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/left_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_height"
+            android:background="@color/blank_bg"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/account_person_info_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/person_info_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/person_info" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/elephant_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/elephant_gray" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/system_blue_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/account_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:text="@string/charging_time"
+                    android:textColor="@color/font_white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/question_mark"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="10dp"
+                    android:layout_toRightOf="@id/account_flag"
+                    android:src="@drawable/question_mark" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp" >
+
+                <ImageView
+                    android:id="@+id/vip_logo"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/un_vip_logo" />
+
+                <TextView
+                    android:id="@+id/bike_num_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="单车编号"
+                    android:textColor="@color/font_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bike_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/motify_data_space"
+                    android:text="000000"
+                    android:textColor="@color/font_white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/use_time_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/timelong_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="@string/used_time"
+                    android:textColor="@color/font_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/use_time_much"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/motify_data_space"
+                    android:gravity="center_vertical"
+                    android:text="00:00:00"
+                    android:textColor="@color/font_white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fee_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/fee_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="@string/expense_total"
+                    android:textColor="@color/font_white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fee_much"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/motify_data_space"
+                    android:gravity="center_vertical"
+                    android:text="￥00.00"
+                    android:textColor="@color/font_white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/unlock_psw_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/unlock_psw_text"
+                android:textColor="@color/font_dark"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <ImageView
+                    android:id="@+id/password_unlock"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/system_main_bg" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <com.xxn.elephantbike.customewidget.AutoScrollTextView
+                        android:id="@+id/password_unlock_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:text="1"
+                        android:textColor="@color/font_dark"
+                        android:textSize="30sp" />
+
+                    <com.xxn.elephantbike.customewidget.AutoScrollTextView
+                        android:id="@+id/password_unlock_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_toRightOf="@id/password_unlock_0"
+                        android:text="0"
+                        android:textColor="@color/font_dark"
+                        android:textSize="30sp" />
+
+                    <com.xxn.elephantbike.customewidget.AutoScrollTextView
+                        android:id="@+id/password_unlock_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_toRightOf="@id/password_unlock_1"
+                        android:text="0"
+                        android:textColor="@color/font_dark"
+                        android:textSize="30sp" />
+
+                    <com.xxn.elephantbike.customewidget.AutoScrollTextView
+                        android:id="@+id/password_unlock_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_toRightOf="@id/password_unlock_2"
+                        android:text="0"
+                        android:textColor="@color/font_dark"
+                        android:textSize="30sp" />
+
+                    <com.xxn.elephantbike.customewidget.AutoScrollTextView
+                        android:id="@+id/password_unlock_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/password_unlock_3"
+                        android:text="0"
+                        android:textColor="@color/font_dark"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/unlock_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:text="@string/unlock_psw_tip"
+                android:textColor="@color/font_dark"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/account_ad_img"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shape_label_white" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/problem_meet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/meet_problem"
+                android:textColor="@color/font_dark_blue"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/system_main_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tip_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="@dimen/motify_text_space"
+            android:text="@string/return_bike_tip"
+            android:lineSpacingMultiplier="1.25"
+            android:textColor="@color/font_dark"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:id="@+id/reply_bike_checkout"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_button_dark_green"
+                android:text="@string/return_bike_pay"
+                android:textColor="@color/white_bg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/renew_bike"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_button_dark_green"
+                android:text="@string/renew_bike_text"
+                android:textColor="@color/white_bg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

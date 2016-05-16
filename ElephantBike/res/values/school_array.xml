@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="school">
+        <item>请选择学校</item>
+        <item>厦门大学</item>
+        <item>厦门大学</item>
+        <item>厦门大学</item>
+        <item>厦门大学</item>
+        <item>厦门大学</item>
+        <item>厦门大学</item>
+        <item>厦门大学</item>
+    </string-array>
+
+</resources>

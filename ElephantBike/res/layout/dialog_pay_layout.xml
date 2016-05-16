@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_label_white_noborder" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" >
+
+        <ImageView
+            android:id="@+id/close_win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/close_dialog" />
+
+        <TextView
+            android:id="@+id/pay_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="请输入还车密码"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/black_line"
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:layout_below="@id/pay_text"
+            android:layout_marginTop="5dp"
+            android:background="@color/login_divider" />
+
+        <TextView
+            android:id="@+id/password_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/black_line"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="锁上车锁后，车锁的显示屏上会显示五位还车密码，如果显示屏没有显示密码，请摁下“显示”键。"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/psw_num"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/password_tip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_frame_gray"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:textColor="@color/font_white"
+            android:textCursorDrawable="@color/white_bg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/psw_num"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" >
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/login_divider" />
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/login_divider" />
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/login_divider" />
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="40dp"
+                android:background="@color/login_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/psw_num"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/shape_circle_0"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="28dp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/shape_circle_1"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="28dp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/shape_circle_2"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginRight="28dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/shape_circle_3"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginRight="28dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/shape_circle_4"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- pay progress -->
+
+        <LinearLayout
+            android:id="@+id/pay_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/psw_num"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

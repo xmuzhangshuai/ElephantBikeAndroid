@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="system_main_blue">#3F4657</color> <!-- 系统深蓝色 -->
+    <color name="system_main_blue_pressed">#2F3647</color> <!-- 系统深蓝色按键后 -->
+    <color name="system_main_orange">#FF8A52</color> <!-- 系统橘色 -->
+    <color name="system_main_orange_pressed">#EF7A42</color> <!-- 系统橘色按键后 -->
+    <color name="system_main_orange_pressed_dark">#DF6A36</color> <!-- 系统橘色按键后 -->
+    <color name="system_main_orange_trans">#70FF8A52</color> <!-- 浅橘色 -->
+    <color name="bg1">#aaaaaa</color> <!-- 字体灰色 -->
+    <color name="login_bg_dark">#252C40</color> <!-- 登录注册背景色(深) -->
+    <color name="login_divider">#332c37</color> <!-- 登录注册分隔条 -->
+
+    <color name="system_female">#FF3366</color> <!-- 女生系统颜色 -->
+
+
+    <!-- 以下颜色在该系统中使用 -->
+    <color name="system_main_bg">#E9E9E9</color> <!-- 系统背景灰色 -->
+    <color name="system_sky_blue">#0092FF</color> <!-- 系统天蓝色 -->
+    <color name="system_gray">#F0F0F0</color> <!-- 系统背景色 -->
+    <color name="system_personal_back">#F6F8FC</color> <!-- 个人中心背景色 -->
+    <color name="system_blue_bg">#70B134</color> <!-- 系统绿色 -->
+    <color name="system_dark_green">#70B035</color> <!-- 系统深绿色 -->
+    <color name="dark_gray">#666666</color> <!-- 系统灰色 -->
+    <color name="message_gray">#D7D7D7</color> <!-- 消息时间灰色 -->
+    <color name="message_frame">#A6937C</color> <!-- 消息内容框颜色 -->
+    <color name="light_gray">#F2F2F2</color> <!-- 系统浅灰色 -->
+    <color name="system_black">#474747</color> <!-- 系统线条背景色 -->
+    <color name="white_bg">#FFFFFF</color> <!-- 系统白色 -->
+    <color name="nav_bg">#F2F2F2</color> <!-- 标题栏灰色调 -->
+    <color name="blank_bg">#FFFFFF</color> <!-- 输入框、标题栏白色 -->
+    <color name="system_button_press">#72BB31</color> <!-- 系统按钮绿色 -->
+    <color name="button_light_green">#72BB31</color> <!-- 系统按钮浅绿色 -->
+    <color name="system_label_press">#72BB31</color> <!-- 系统标签绿色 -->
+    <color name="button_dark_gray">#A6A6A6</color> <!-- 系统按钮深灰色 -->
+    <color name="font_dark">#474747 </color> <!-- 字体黑色 -->
+    <color name="font_gray_dark">#555555 </color> <!-- 字体深灰色 -->
+    <color name="font_gray">#888888</color> <!-- 字体灰色 -->
+    <color name="font_light_gray">#969696</color> <!-- 字体淡灰色 -->
+    <color name="font_4f_gray">#4F4F4F</color> <!-- 字体4f灰色 -->
+    <color name="font_red">#FF0000</color> <!-- 字体红色 -->
+    <color name="font_simple_gray">#AEAEAE</color> <!-- 字体暗灰色 -->
+    <color name="font_green">#72BB31 </color> <!-- 字体绿色 -->
+    <color name="font_light_blue">#6FD2F7 </color> <!-- 字体浅蓝色 -->
+    <color name="font_dark_blue">#5b9bd5 </color> <!-- 字体蓝色 -->
+    <color name="font_white">#FFFFFF </color> <!-- 字体白色 -->
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="light_red">#FF4424</color>
+    <color name="font_sky_blue">#72B0DC</color>
+    <color name="shape_gary_bg">#969696</color> <!-- 灰色调 -->
+    <color name="price">#F08B00</color> <!-- 价格颜色 -->
+    <color name="translucent_background">#60000000</color> <!-- 70%透明背景色 -->
+    <color name="fee">#70B134</color> <!-- 金额颜色 -->
+    <!-- 终止 -->
+
+
+    <!-- 二维码扫描 -->
+    <color name="result_view">#F0666666</color>
+    <color name="viewfinder_mask">#80666666</color>
+    <color name="viewfinder_frame">#FFFFFFFF</color>
+    <color name="viewfinder_laser">#FF9BC1E5</color>
+    <color name="edittext">#B0E2FF</color> <!-- 对话框字体颜色 -->
+    <color name="alert_dialog_blue">#0476F0</color>
+    <color name="semi_transparent_w">#7fffffff</color>
+    <color name="top_nav_black">#333333</color>
+    <color name="top_nav_black_dark">#222222</color>
+    <color name="top_nav_blue">#5EA0D3</color>
+    <color name="top_nav_blue_dark">#4F94CD</color>
+    <color name="purple">#7B33CC</color>
+    <color name="purple_light">#B734EE</color>
+    <color name="purple_dark">#6A23AA</color>
+    <color name="unenable">#999999</color>
+    <color name="unenable_font">#dbdbdb</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+</resources>

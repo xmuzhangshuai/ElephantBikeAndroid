@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/time_capsule20"
+    android:paddingTop="@dimen/time_capsule20" >
+
+    <ImageView
+        android:id="@+id/leftimage"
+        android:layout_width="@dimen/day_recommend_help_padding"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/personal_timecapsule_padding"
+        android:layout_toRightOf="@+id/item_name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:gravity="center"
+        android:textColor="#9c9c9c"
+        android:textSize="@dimen/day_recommend_user_font" />
+
+    <TextView
+        android:id="@+id/righttext"
+        android:layout_width="@dimen/motify_data_space"
+        android:layout_height="@dimen/motify_data_space"
+        android:layout_marginLeft="@dimen/day_recommend_help_font_space"
+        android:layout_toRightOf="@+id/item_name"
+        android:background="@drawable/shape_like_count"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

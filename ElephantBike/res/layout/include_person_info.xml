@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_bg"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/white_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/comp_gap" >
+
+                <ImageView
+                    android:id="@+id/headimage"
+                    android:layout_width="@dimen/personal_photo_size"
+                    android:layout_height="@dimen/personal_photo_size"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:onClick="toggleMenu"
+                    android:src="@drawable/portrait_img" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/headimage"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_text_space"
+                    android:text="XXX"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/auth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/name"
+                    android:layout_below="@+id/name"
+                    android:text="未认证"
+                    android:textSize="12sp" />
+              
+
+                <TextView
+                    android:id="@+id/vip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/auth"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_label_radius"
+                    android:paddingLeft="@dimen/motify_text_space"
+                    android:text="开通大象会员"
+                    android:textColor="@color/font_white"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/info_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/sel_color_white_gray" >
+
+                <TextView
+                    android:id="@+id/person_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/comp_gap"
+                    android:layout_marginTop="@dimen/comp_gap"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="我的钱包"
+                    android:textColor="@color/font_gray_dark"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/money_remain_much"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/comp_gap"
+                    android:layout_marginRight="@dimen/motify_data_space"
+                    android:layout_marginTop="@dimen/comp_gap"
+                    android:gravity="center_vertical"
+                    android:text="余额：00.00元"
+                    android:textColor="@color/font_gray"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dip"
+                    android:layout_below="@+id/person_money"
+                    android:background="@color/system_black" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/info_auth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sel_color_white_gray"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dip"
+                    android:layout_marginBottom="@dimen/comp_gap"
+                    android:layout_marginTop="@dimen/comp_gap"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="身份认证"
+                    android:textColor="@color/font_gray_dark"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dip"
+                    android:background="@color/system_black" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/share_reward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sel_color_white_gray" >
+
+                <TextView
+                    android:id="@+id/info_reward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/comp_gap"
+                    android:layout_marginTop="@dimen/comp_gap"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="通知"
+                    android:textColor="@color/font_gray_dark"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/comp_gap"
+                    android:layout_marginRight="@dimen/motify_data_space"
+                    android:layout_marginTop="@dimen/comp_gap"
+                    android:gravity="center_vertical"
+                    android:text="您有新的通知"
+                    android:textColor="@color/font_gray"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dip"
+                    android:layout_below="@+id/info_reward"
+                    android:background="@color/system_black" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/info_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/sel_color_white_gray"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dip"
+                    android:layout_marginBottom="@dimen/comp_gap"
+                    android:layout_marginTop="@dimen/comp_gap"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/motify_data_space"
+                    android:text="帮助"
+                    android:textColor="@color/font_gray_dark"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dip"
+                    android:background="@color/system_black" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/elephant_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elephant_blue_small" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/font_green" />
+        </LinearLayout>
+
+       
+
+    </RelativeLayout>
+
+</LinearLayout>

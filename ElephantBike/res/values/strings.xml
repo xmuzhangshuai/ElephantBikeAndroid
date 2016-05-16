@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">大象单车</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="can_not_find_version_name">获取版本号失败</string>
+    <string name="title_activity_login">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_phone">手机号码格式不对</string>
+    <string name="error_pattern_password">密码长度在6~18之间，只能包含字符、数字</string>
+    <string name="error_field_required">此处必填</string>
+    <string name="error_field_unregister">该手机号未注册</string>
+    <string name="error_field_conform_pass">两次输入的密码不一致</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="register_phone_info">我们会向您发送一次性短消息，来验证您的电话号码</string>
+
+    <!-- 注册 -->
+    <string name="choose_gender_error">请选择性别</string>
+    <string name="error_phone">手机号码格式不对</string>
+    <string name="register_account_info">注册即表示我已同意《用户协议》</string>
+    <string name="no_reg_phone">该手机号码没有被注册</string>
+    <string name="province">省份</string>
+    <string name="city">城市</string>
+    <string name="reg_now">点击“开始”即表示您同意</string>
+    <string name="reg_now_blue_test"><Data><![CDATA[请使用<font color="#ff0000"><b>%1$s</b></font>牛兑换<font color="#ff0000"><b>%2$s</b></font>%3$s 上网时长]]></Data></string>
+    <string name="agreement">《法律声明及隐私政策》</string>
+    <string name="agreementText">法律声明及隐私政策</string>
+    <string name="login_now">您尚未登录，是否去登录？</string>
+    <!-- 身份验证 -->
+    <string name="choose_school"> 请选择学校 </string>
+    <!-- 会员界面 -->
+    <string name="daxiang_vip"> 大象会员 </string>
+    <string name="vip_info"> 您的会员将于 </string>
+    <string name="unvip_tip"> 还不是会员，去开通吧 </string>
+    <string name="open_vip"> 开通会员 </string>
+
+    <!-- 提交问题页 -->
+    <string name="problem">遇到问题</string>
+    <string name="next">下一步</string>
+    <string name="problem_1">输入密码后无法开锁</string>
+    <string name="problem_2">在计费期间单车丢失</string>
+    <string name="problem_3">锁车后不显示还车密码或还车密码错误</string>
+    <string name="problem_4">不影响还车的损坏问题</string>
+    <string name="bike_lost">单车丢失</string>
+    <string name="noway_checkout">锁车后无法还车结账</string>
+    <string name="bike_damage">车身损坏</string>
+    <string name="lock_damage">车锁损坏</string>
+    <string name="other_problem">其他问题</string>
+    <string name="other_description">其他说明:</string>
+    <string name="help_web">用户指南</string>
+    <string name="voice_described">语音描述:</string>
+    <string name="voice_described_text">请您尽可能详细地描述单车停放的具体位置和具体问题，以便我们的工作人员尽快找到问题单车。</string>
+    <string name="unable_lock_text_1">由于大象车锁的自身问题，可能存在输入密码后无法开锁的情况，请您通过语音方式向我们描述具体情况，经工作人员核实后，您将获得5元误时赔偿。</string>
+    <string name="unable_lock_text_2">请您再次确认车锁无法被打开，当您点击“确认无法开锁”后，您的账户会被临时锁定，待工作人员找到问题单车后即可解锁，时间一般不超过3个小时。</string>
+    <string name="bike_lost_text_1">在计费期间，如果由于您的疏忽导致您借用的单车丢失，您需要赔偿由于单车丢失所带来的财产损失。</string>
+    <string name="bike_lost_text_2">300元/辆</string>
+    <string name="bike_lost_text_3">请您再次确认您借用的单车已经丢失，当您点击“确认丢失”后，您的账户会被锁定，在您支付了赔偿金后即可解锁。</string>
+    <string name="problem_password_text_1">由于大象车锁的自身问题，可能存在锁车后不显示还车密码或提示还车密码错误的情况，请您在确认车锁已被上锁后，通过语音方式向我们描述具体情况。</string>
+    <string name="problem_password_text_2">请您再次确认已经将车锁锁上，当您点击“确认无法还车”后，您的账户会被临时锁定，待工作人员找到问题单车后即可解锁，时间一般不超过3个小时。</string>
+    <string name="problem_password_text_3">确认无法还车</string>
+    <string name="other_problem_text_1">我们非常抱歉由于单车损坏没能提供最好的骑行服务，您不需要为任何原因的损坏负有责任，如果您能通过语音方式向我们描述损坏的具体情况，我们将不胜感激!</string>
+    <string name="other_problem_text_2">确认提交</string>
+
+    <!-- 计算费用页面 -->
+    <string name="charging_time">正在计费中</string>
+    <string name="expense_total">费用总计：</string>
+    <string name="used_time">使用时长</string>
+    <string name="unlock_psw_text">解锁密码</string>
+    <string name="unlock_psw_tip">将五位数密码输入车锁即可开锁</string>
+    <string name="return_bike_tip">小提示：请将单车骑回校内再点击“还车结账”，否则将会还车失败，如果在校外锁车后，点击“恢复单车”可以重新解锁。</string>
+    <string name="return_bike_pay">还车结账</string>
+    <string name="renew_bike_text">恢复单车</string>
+    <string name="meet_problem">遇到问题？</string>
+    <string name="GA_text_2_text"><u>（大象会员免起步费）</u></string>
+
+    <!-- 扫描二维码页面 -->
+    <string name="scan_text">将大象单车上的二维码放入框内获取开锁密码</string>
+    <string name="activity_web">活动页面</string>
+
+    <!-- 网络相关 -->
+    <string name="error_pattern_pswCode">验证码输入错误</string>
+
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="0.0px" >
+
+        <LinearLayout
+            android:id="@+id/left_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_register"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/day_recommend_help_font_space" >
+
+            <ImageView
+                android:id="@+id/nav_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:src="@drawable/ic_action_previous_item" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nav_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/open_vip"
+            android:textColor="@color/font_dark"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/one_month_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/blank_bg" >
+
+        <TextView
+            android:id="@+id/onemonth_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="1个月大象会员"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/onemonth_vip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/onemonth_vip"
+            android:layout_below="@id/onemonth_vip"
+            android:text="有效期至2016-4-13"
+            android:textColor="#797979"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/onemonth_vip_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:text="¥ 3.00"
+            android:textColor="@color/price"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/three_month_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/blank_bg" >
+
+        <TextView
+            android:id="@+id/threemonth_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="3个月大象会员"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/threemonth_vip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/threemonth_vip"
+            android:layout_below="@+id/threemonth_vip"
+            android:text="有效期至2016-6-13"
+            android:textColor="#797979"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/threemonth_vip_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:text="¥ 7.00"
+            android:textColor="@color/price"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/six_month_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/blank_bg" >
+
+        <TextView
+            android:id="@+id/sixmonth_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="6个月大象会员"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/sixmonth_vip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sixmonth_vip"
+            android:layout_below="@+id/sixmonth_vip"
+            android:text="有效期至2016-9-13"
+            android:textColor="#797979"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/sixmonth_vip_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="¥ 11.00"
+            android:textColor="@color/price"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/twelve_month_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/blank_bg" >
+
+        <TextView
+            android:id="@+id/twelvemonth_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="12个月大象会员"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/twelvemonth_vip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/twelvemonth_vip"
+            android:layout_below="@+id/twelvemonth_vip"
+            android:text="有效期至2017-3-13"
+            android:textColor="#797979"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/twelvemonth_vip_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="¥ 18.00"
+            android:textColor="@color/price"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal" >
+
+        <Button
+            android:id="@+id/sure_open_vip"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_button_green_light"
+            android:gravity="center"
+            android:text="确认开通"
+            android:enabled="false"
+            android:textColor="@color/font_white" />
+    </RelativeLayout>
+
+</LinearLayout>
